@@ -1,0 +1,95 @@
+body {
+	background: #f4f5f6;
+}
+
+/***global bootstrap*/
+.container-xl {
+	max-width: 1310px;
+}
+
+.container-lg {
+	max-width: 1270px;
+}
+
+/***global style*/
+
+/*header*/
+.header {
+
+}
+
+/***header--top*/
+.header--top {
+	background-color: #f72210; 
+}
+
+.loginBtn,
+.subscribeBtn {
+	margin-bottom: 1rem;
+}
+
+.subscribeBtn {
+	background-color: yellow;
+	border-radius: 2rem;
+	padding: .1rem 1rem;
+}
+
+.logo img {
+	width: 350px; 
+}
+
+/*nav*/
+header .navbar {
+	padding-left: 0; 
+	margin-bottom: 0;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+}
+
+.nav-link:hover {
+	color: #f72210;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 0 1em;
+  }
+
+.header--middle .navbar .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid rgba(3,3,3,.4);
+} 
+
+.header--bottom {
+	border-top: 2px solid #f4f5f7;
+	border-bottom: 2px solid #f4f5f7;
+}
+
+/*main*/
+.sectionTitle {
+	color: rgba(3,3,3,.4);
+}
+
+.aspBanner img {
+	width: 100%;
+}
+ 
+.cat1 {
+	background: red;
+	color: #fff;
+} 
+
+.cat2 {
+	color: red;
+}
+
+.megazineitemThumb { 
+	width: 100%;
+	height: 300px;
+	margin-bottom: 1rem;
+}
+
+.newsletterSubsImg img {
+	width: 150px; 
+	height: 330px;   
+}
