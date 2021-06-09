@@ -93,3 +93,10 @@ header .navbar {
 	width: 150px; 
 	height: 330px;   
 }
+
+
+@media (min-width: 992px) {
+	.wlg-100 {
+		width: 100%;
+	}
+}

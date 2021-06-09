@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- reset -->
-    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/reset.css">  
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- css -->
@@ -14,21 +14,20 @@
     <title>Newsweek</title>
   </head>
   <body>  
-  	<header class="header">    
-  		<div class="container-xl header--top"> 
+  	<header class="header">     
+  		<div class="container-xl header--top">
   			<div class="container-lg  d-flex justify-content-between align-items-center">
-	  			<p class="date align-self-end text-white">Fri, Jun 04, 2021</p> 
-	  			<div class="logo">
-	  				<img src="imgs/logoWhite.svg" alt="">
-	  			</div>
+	  			<p class="date align-self-end text-white d-none d-lg-block ">Fri, Jun 04, 2021</p> 
+	  			<div class="logo w-25">
+	  				<img src="imgs/logoWhite.svg" alt="" class="img-fluid">
+	  			</div> 
 	  			<div class="userOptions align-self-end">
 	  				<button class="loginBtn btn text-uppercase fw-bold text-white">login</button>
 	  				<button class="subscribeBtn btn text-uppercase fw-bold text-dark">subscribe</button>
 	  			</div>  				
   			</div>
-
   		</div>
-  		<div class="container-xl header--middle bg-white">
+  		<div class="container-xl header--middle bg-white d-none d-lg-block">
   			<nav class="">
   				<ul class="navbar">
   					<li class="nav-item">
@@ -65,9 +64,9 @@
   						<a class="nav-link text-dark fw-bold" href="#"> Education </a>
   					</li>
   				</ul>
-  			</nav>
-  		</div>
-  		<div class="container-xl header--bottom bg-white">
+  			</nav> 
+  		</div> 
+  		<div class="container-xl header--bottom bg-white d-none d-lg-block">
   			<nav class="">
   				<ul class="navbar justify-content-start"> 
   					<li class="nav-item">
@@ -90,12 +89,12 @@
   					</li> 
   				</ul>
   			</nav>
-  		</div>
+  		</div> 
   	</header> 
   	<main class="container-xl bg-white">
   		<div class="main--top container-lg pb-5"> 
   			<div class="row d-flex justify-content-around">   
-  				<div class="col-3 p-0 m-0">
+  				<div class="col-lg-3 col-md-5 col-sm-auto col-12 p-0 m-0 order-md-1 order-sm-2 order-2"> 
 		  			<div class="main--top-left">
 			  			<div class="featuredStories">
 			  				<div class="text-uppercase fw-bold py-2 sectionTitle">featured stories </div>	
@@ -182,8 +181,8 @@
 			  				</div>				
 			  			</div>  			
 		  			</div>   					
-  				</div>
-  				<div class="col-5 p-0 m-0">
+  				</div>  
+  				<div class="col-lg-5 col-md-6 col-sm-12 p-0 m-0 order-lg-2 order-sm-1 order-1">    
 		  			<div class="main--top-middle">
 		  				<div class="topStory">
 		  					<div class="text-uppercase fw-bold py-2 sectionTitle"> 
@@ -196,25 +195,25 @@
 		  					</h2>
 		  					<p class="topStoryDescr py-0 lh-sm">
 		  						"Getting to bottom of the origin of this pandemic is not about assigning blame, it is about understanding how to prepare for the next pandemic, and the next one after that," a State Department spokesperson told Newsweek.
-		  					</p>
+		  					</p> 
 		  				</div>
 		  				<div class="myTurn">
-		  					<div class=" text-uppercase fw-bold py-2 sectionTitle ">
+		  					<div class=" text-uppercase fw-bold py-2 sectionTitle text-sm-center">
 		  						my turn
 		  					</div>
-		  					<div class="myTurnArticles d-flex">
+		  					<div class="myTurnArticles d-flex flex-sm-column  flex-lg-row flex-column align-items-sm-center">  
 		  						<div class="smallItem">
 		  							<img class="smallItem-img img-fluid" src="imgs/smallItemImg.png" alt="">
 		  							<p class="smallItemi-tile fw-bold text-secondary my-2 fs-6"> 
 		  								'My Dog Flunked Service School, Now He's An Arson Detector'
 		  							</p>
 		  						</div>
-		  						<div class="smallItem mx-4">
+		  						<div class="smallItem mx-lg-4 mx-0">
 		  							<img class="smallItem-img img-fluid" src="imgs/smallItemImg2.png" alt="">
 		  							<p class=" smallItemi-tile fw-bold text-secondary my-2 fs-6">
 		  								'My Dog Flunked Service School, Now He's An Arson Detector'
 		  							</p>
-		  						</div> 		  	
+		  						</div>  		  	
 		  						<div class="smallItem">
 		  							<img class="smallItem-img img-fluid" src="imgs/smallItemImg3.jpg" alt="">
 		  							<p class="smallItemi-tile fw-bold text-secondary my-2 fs-6">
@@ -223,18 +222,18 @@
 		  						</div>		
 		  					</div>
 		  				</div>
-		  				<div class="cultureTravel">
-		  					<div class="text-uppercase fw-bold py-2 sectionTitle">
+		  				<div class="cultureTravel ">
+		  					<div class="text-uppercase fw-bold py-2 sectionTitle text-sm-center">
 		  						culture & travel
 		  					</div>
-		  					<div class="cultureTravelArticles d-flex">
+		  					<div class="cultureTravelArticles d-flex flex-sm-column flex-lg-row flex-column align-items-sm-center">
 		  						<div class="smallItem">
 		  							<img class="smallItem-img img-fluid" src="imgs/smallItemImg.png" alt="">
 		  							<p class="smallItemi-tile fw-bold text-secondary my-2 fs-6"> 
 		  								'My Dog Flunked Service School, Now He's An Arson Detector'
 		  							</p>
 		  						</div>
-		  						<div class="smallItem mx-4">
+		  						<div class="smallItem mx-lg-4 mx-0">
 		  							<img class="smallItem-img img-fluid" src="imgs/smallItemImg2.png" alt="">
 		  							<p class=" smallItemi-tile fw-bold text-secondary my-2 fs-6">
 		  								'My Dog Flunked Service School, Now He's An Arson Detector'
@@ -372,7 +371,7 @@
 		  						</article>					 	 
 		  					</div> 
 		  				</div>
-		  				<div class="latestStories">
+		  				<div class="latestStories ">
 		  					<div class="text-uppercase fw-bold py-2 sectionTitle">
 		  						latest stories 
 		  					</div>
@@ -496,9 +495,9 @@
 		  						</article>					 	 
 		  					</div> 
 		  				</div>
-		  			</div>  					  
-  				</div>
-  				<div class="col-3 p-0 m-0">
+		  			</div>  					   
+  				</div>      
+  				<div class="col-lg-3 col-md-12 order-md-3 p-0 m-0 order-sm-3 order-3">
 		  			<div class="main--top-right">
 		  				<div class="debate">
 		  					<div class="text-uppercase fw-bold py-2 sectionTitle border-bottom border-4"> 
@@ -522,24 +521,25 @@
 				  					<span class="bg-dark text-white rounded-circle p-2 text-uppercase fw-bold">vs</span> 	
 			  					</div>
 			  					<div class="participant2 participant d-flex mt-4"> 
-			  						<div class="avater order-2">
-				  						<img src="imgs/pAvater.png" alt="" class="avater">	
-			  						</div>
-			  						<div class="participantInfo px-3 order-1">
+			  						<div class="participantInfo px-3">
 				  						<h5 class="titleOfDebate fw-bold fs-6">
 				  							The Conservative Case for a $15 Minimum Wage
 				  						</h5>
 				  						<p class="participanName fs-6 fw-bold">
 				  							<span class="fw-normal">BY</span> PEDRO L. GONZALEZ
 				  						</p>
+			  						</div>
+			  						<div class="avater ms-auto"> 
+				  						<img src="imgs/pAvater.png" alt="" class="avater">	
 			  						</div>	
-			  					</div> 	  						
-		  					</div>
-		  					<div class="podcastVid mt-3">
-		  						<iframe src="https://art19.com/shows/the-debate/episodes/594c11ae-161b-402d-9bb7-94147c2cb04d/embed?type=artwork&amp;theme=dark-custom" style="width: 100%; height: 320px; border: 0 none;" scrolling="no">
-		  							
-		  						</iframe>
-		  					</div>
+			  					</div> 	  					 	
+		  					</div> 
+		  					<div class="podcastVid mt-3 row d-md-flex justify-content-md-center "> 
+		  						<div class="col-md-4 wlg-100">  
+			  						<iframe src="https://art19.com/shows/the-debate/episodes/594c11ae-161b-402d-9bb7-94147c2cb04d/embed?type=artwork&amp;theme=dark-custom" style="width: 100%; height: 320px; border: 0 none;" scrolling="no">
+		  							</iframe> 
+		  						</div>	
+		  					</div> 
 		  				</div>
 
 		  				<div class="opinions">
@@ -683,57 +683,59 @@
 		  				<div class="aspBanner mb-3"> 
 		  					<img src="imgs/aspbanner.webp" alt="" class="">       
 		  				</div>  
+		  				<div class="col-lg-auto col-md-4 mx-md-auto">
+			  				<div class="specialblock mt-4">
+			  					<div class="blockThumb">
+				  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
+			  					</div>   
+			  					<div class="blockInfo p-4 border "> 
+				  					<h2 class="blockTitle h5 fw-bold">
+				  						Do You Want to Help in the Fight Against Cyber Crime?
+				  					</h2>
+				  					<p class="blockDescr lh-sm">
+				  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
+				  					</p>	
+			  					</div>
+			  				</div>   
 
-		  				<div class="specialblock mt-4">
-		  					<div class="blockThumb">
-			  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
-		  					</div>   
-		  					<div class="blockInfo p-4 border "> 
-			  					<h2 class="blockTitle h5 fw-bold">
-			  						Do You Want to Help in the Fight Against Cyber Crime?
-			  					</h2>
-			  					<p class="blockDescr lh-sm">
-			  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
-			  					</p>	
-		  					</div>
-		  				</div>   
+			  				<div class="newsletterSub bg-light border d-flex flex-column p-4 my-4">    
+			  					<h6 class="newsletterSub--title h6 px-5"> 
+			  						GET THE BEST OF NEWSWEEK VIA EMAIL
+			  					</h6>
+			  					<input type="email" placeholder="Email address">   
+			  					<button class="subBtn btn btn-danger text-uppercase mt-2 ">free sign up</button> 
+			  				</div>
 
-		  				<div class="newsletterSub bg-light border d-flex flex-column p-4 my-4">    
-		  					<h6 class="newsletterSub--title h6 px-5"> 
-		  						GET THE BEST OF NEWSWEEK VIA EMAIL
-		  					</h6>
-		  					<input type="email" placeholder="Email address">   
-		  					<button class="subBtn btn btn-danger text-uppercase mt-2 ">free sign up</button> 
+			  				<div class="specialblock mt-4">
+			  					<div class="blockThumb">
+				  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
+			  					</div>   
+			  					<div class="blockInfo p-4 border "> 
+				  					<h2 class="blockTitle h5 fw-bold">
+				  						Do You Want to Help in the Fight Against Cyber Crime?
+				  					</h2>
+				  					<p class="blockDescr lh-sm">
+				  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
+				  					</p>	
+			  					</div>
+			  				</div>
+			  				<div class="specialblock mt-4">
+			  					<div class="blockThumb">
+				  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
+			  					</div>   
+			  					<div class="blockInfo p-4 border "> 
+				  					<h2 class="blockTitle h5 fw-bold">
+				  						Do You Want to Help in the Fight Against Cyber Crime?
+				  					</h2>
+				  					<p class="blockDescr lh-sm">
+				  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
+				  					</p>	
+			  					</div>
+			  				</div>		  					
 		  				</div>
-
-		  				<div class="specialblock mt-4">
-		  					<div class="blockThumb">
-			  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
-		  					</div>   
-		  					<div class="blockInfo p-4 border "> 
-			  					<h2 class="blockTitle h5 fw-bold">
-			  						Do You Want to Help in the Fight Against Cyber Crime?
-			  					</h2>
-			  					<p class="blockDescr lh-sm">
-			  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
-			  					</p>	
-		  					</div>
-		  				</div>
-		  				<div class="specialblock mt-4">
-		  					<div class="blockThumb">
-			  					<img src="imgs/blockThumb.png" alt="" class="img-fluid">	
-		  					</div>   
-		  					<div class="blockInfo p-4 border "> 
-			  					<h2 class="blockTitle h5 fw-bold">
-			  						Do You Want to Help in the Fight Against Cyber Crime?
-			  					</h2>
-			  					<p class="blockDescr lh-sm">
-			  						Most of us have been hacked, phished or scammed, and it’s going to get worse. Do you want to be a part of the solution?
-			  					</p>	
-		  					</div>
-		  				</div> 
+ 
 		  			</div>   					
-  				</div>
+  				</div>    
   			</div>
   		</div>
   		<div class="main--bottom container-lg mt-5"> 
@@ -743,7 +745,7 @@
   				</div> 
   				<div class="megazineItems"> 
   					<div class="row">
-	  					<div class="megazineItem col-3">
+	  					<div class="megazineItem col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine1.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -758,8 +760,8 @@
 		  							Exclusive: Pandemic Could Cost Typical American Woman Nearly $600,000 in Li
 		  						</h5>
 		  					</p>  						
-	  					</div> 
-	  					<div class="megazineItem col-3">  
+	  					</div>  
+	  					<div class="megazineItem col-lg-3 col-sm-12">  
 		  					<img src="imgs/megazine2.webp" alt="" class="megazineitemThumb"> 
 		  					<p>
 		  						<span class="cat1 fw-bold fs-6 text-uppercase p-1">
@@ -773,7 +775,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div> 
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine3.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -789,7 +791,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div>
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine4.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -805,7 +807,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div>
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine2.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -821,7 +823,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div>
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid"> 
 		  						<img src="imgs/megazine3.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -837,7 +839,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div>
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine4.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -853,7 +855,7 @@
 		  						</h5>
 		  					</p>  						
 	  					</div>
-	  					<div class="megazineItem d-flex flex-column col-3">
+	  					<div class="megazineItem d-flex flex-column col-lg-3 col-sm-12">
 	  						<div class="img-fluid">
 		  						<img src="imgs/megazine2.webp" alt="" class="megazineitemThumb">
 	  						</div>
@@ -868,7 +870,7 @@
 		  							Exclusive: Pandemic Could Cost Typical American Woman Nearly $600,000 in Li
 		  						</h5>
 		  					</p>  						
-	  					</div>	 		 			
+	  					</div>	 	 	 			
   					</div>  
   				</div>
   			</div>
@@ -877,7 +879,7 @@
   					Editor's pick 
   				</div>
   				<div class="editorsPickContainer row">
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12 ">
   						<img src="imgs/editospick1.webp" alt="" class="editorPickThumb img-fluid"> 
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -886,7 +888,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick2.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -895,7 +897,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick3.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -904,7 +906,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick4.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -913,7 +915,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick1.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -922,7 +924,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick2.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -931,7 +933,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick3.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -940,7 +942,7 @@
   							At the end of the two-year suspension, the social media giant said it will reassess whether the risk to public safety has receded.
   						</p>
   					</div>
-  					<div class="editorsPick col-3">
+  					<div class="editorsPick col-lg-3 col-sm-12">
   						<img src="imgs/editospick4.webp" alt="" class="editorPickThumb img-fluid">
   						<h4 class="editorsPickTitle fw-bold fs-5 py-2">
   							Facebook Suspends Donald Trump From Platform Until at Least 2023
@@ -954,22 +956,22 @@
 
   			<div class="us BottomRows">
   				<div class="Btitle fw-bold fs-4 text-uppercase text-danger border-top pt-4 mt-4">u.s.</div>
-  				<div class="Sm d-flex">
-	  				<div class="usMainContainer d-flex">
-	  					<div class="usMain pe-2">
+  				<div class="Sm d-flex flex-lg-row flex-sm-column flex-column"> 
+	  				<div class="usMainContainer d-flex flex-lg-row flex-sm-column flex-column ">  
+	  					<div class="usMain pe-lg-2 pe-sm-0">
 	  						<img src="imgs/us1.webp" alt="" class="usMainThumb img-fluid">
 	  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 	  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 	  						</h4>
-	  					</div> 
-	  					<div class="usMain px-4">
+	  					</div>  
+	  					<div class="usMain px-lg-4 px-sm-0">
 	  						<img src="imgs/us2.webp" alt="" class="usMainThumb img-fluid"> 
 	  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 	  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 	  						</h4>
 	  					</div>
 	  				</div>
-	  				<div class="usSide">
+	  				<div class="usSide pt-lg-0 pt-sm-5 pt-5">
 	  					<div class="side d-flex mb-4">
 	  						<img src="imgs/usSide1.webp" alt="" class="sideImg">
 	  						<h5 class="sideTitle fs-6 fw-bold px-3 pb-5">  
@@ -988,7 +990,7 @@
 	  							12,000 Christians Want Trump 'Held Accountable' for Tear-Gassed BLM Protest
 	  						</h5>
 	  					</div> 
-	  				</div>  					
+	  				</div>    		 			
   				</div>
   			</div>
   			<div class="world BottomRows">
@@ -996,22 +998,22 @@
   					World
   				</div>
   				<div class="worldMainContainer">
-	  				<div class="Wm d-flex">
-		  				<div class="worldMainContainer d-flex">
-		  					<div class="worldMain pe-2">
+	  				<div class="Wm d-flex flex-lg-row flex-sm-column flex-column">
+		  				<div class="worldMainContainer d-flex flex-lg-row flex-sm-column flex-column">
+		  					<div class="worldMain pe-lg-2 pe-sm-0">
 		  						<img src="imgs/world1.webp" alt="" class="worldMainThumb img-fluid">
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
 		  					</div> 
-		  					<div class="usMain px-4">
+		  					<div class="usMain px-lg-4 px-sm-0">
 		  						<img src="imgs/world2.webp" alt="" class="usMainThumb img-fluid"> 
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
-		  					</div>
-		  				</div>
-		  				<div class="usSide">
+		  					</div> 
+		  				</div> 
+		  				<div class="usSide pt-lg-0 pt-sm-5 pt-5">
 		  					<div class="side d-flex mb-4">
 		  						<img src="imgs/usSide1.webp" alt="" class="sideImg">
 		  						<h5 class="sideTitle fs-6 fw-bold px-3 pb-5">  
@@ -1030,7 +1032,7 @@
 		  							12,000 Christians Want Trump 'Held Accountable' for Tear-Gassed BLM Protest
 		  						</h5>
 		  					</div> 
-		  				</div>  					
+		  				</div>  	 				
 	  				</div>
   				</div>
   			</div>
@@ -1039,22 +1041,22 @@
   					Tech & Science
   				</div>
   				<div class="worldMainContainer">
-	  				<div class="Wm d-flex">
-		  				<div class="worldMainContainer d-flex">
-		  					<div class="worldMain pe-2">
+	  				<div class="Wm d-flex flex-lg-row flex-sm-column flex-column">
+		  				<div class="worldMainContainer d-flex flex-lg-row flex-sm-column flex-column">
+		  					<div class="worldMain pe-lg-2 pe-sm-0">
 		  						<img src="imgs/world1.webp" alt="" class="worldMainThumb img-fluid">
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
 		  					</div> 
-		  					<div class="usMain px-4">
+		  					<div class="usMain px-lg-4 px-sm-0">
 		  						<img src="imgs/world2.webp" alt="" class="usMainThumb img-fluid"> 
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
-		  					</div>
-		  				</div>
-		  				<div class="usSide">
+		  					</div> 
+		  				</div> 
+		  				<div class="usSide pt-lg-0 pt-sm-5 pt-5">
 		  					<div class="side d-flex mb-4">
 		  						<img src="imgs/usSide1.webp" alt="" class="sideImg">
 		  						<h5 class="sideTitle fs-6 fw-bold px-3 pb-5">  
@@ -1073,7 +1075,7 @@
 		  							12,000 Christians Want Trump 'Held Accountable' for Tear-Gassed BLM Protest
 		  						</h5>
 		  					</div> 
-		  				</div>  					
+		  				</div>  	 				
 	  				</div>
   				</div> 				
   			</div>
@@ -1082,22 +1084,22 @@
   					Culture
   				</div>
   				<div class="worldMainContainer">
-	  				<div class="Wm d-flex">
-		  				<div class="worldMainContainer d-flex">
-		  					<div class="worldMain pe-2">
+	  				<div class="Wm d-flex flex-lg-row flex-sm-column flex-column">
+		  				<div class="worldMainContainer d-flex flex-lg-row flex-sm-column flex-column">
+		  					<div class="worldMain pe-lg-2 pe-sm-0">
 		  						<img src="imgs/world1.webp" alt="" class="worldMainThumb img-fluid">
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
 		  					</div> 
-		  					<div class="usMain px-4">
+		  					<div class="usMain px-lg-4 px-sm-0">
 		  						<img src="imgs/world2.webp" alt="" class="usMainThumb img-fluid"> 
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
-		  					</div>
-		  				</div>
-		  				<div class="usSide">
+		  					</div> 
+		  				</div> 
+		  				<div class="usSide pt-lg-0 pt-sm-5 pt-5">
 		  					<div class="side d-flex mb-4">
 		  						<img src="imgs/usSide1.webp" alt="" class="sideImg">
 		  						<h5 class="sideTitle fs-6 fw-bold px-3 pb-5">  
@@ -1116,7 +1118,7 @@
 		  							12,000 Christians Want Trump 'Held Accountable' for Tear-Gassed BLM Protest
 		  						</h5>
 		  					</div> 
-		  				</div>  					
+		  				</div>  	 				
 	  				</div>
   				</div> 	 				
   			</div>
@@ -1125,22 +1127,22 @@
   					Business
   				</div> 
   				<div class="worldMainContainer">
-	  				<div class="Wm d-flex">
-		  				<div class="worldMainContainer d-flex">
-		  					<div class="worldMain pe-2">
+	  				<div class="Wm d-flex flex-lg-row flex-sm-column flex-column">
+		  				<div class="worldMainContainer d-flex flex-lg-row flex-sm-column flex-column">
+		  					<div class="worldMain pe-lg-2 pe-sm-0">
 		  						<img src="imgs/world1.webp" alt="" class="worldMainThumb img-fluid">
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
 		  					</div> 
-		  					<div class="usMain px-4">
+		  					<div class="usMain px-lg-4 px-sm-0">
 		  						<img src="imgs/world2.webp" alt="" class="usMainThumb img-fluid"> 
 		  						<h4 class="title usMainTitle fs-5 fw-bold pt-2">
 		  							3-Year-Old Girl Dies After Mom Leaves Her in Car to Tend Cannabis Plants
 		  						</h4>
-		  					</div>
-		  				</div>
-		  				<div class="usSide">
+		  					</div> 
+		  				</div> 
+		  				<div class="usSide pt-lg-0 pt-sm-5 pt-5">
 		  					<div class="side d-flex mb-4">
 		  						<img src="imgs/usSide1.webp" alt="" class="sideImg">
 		  						<h5 class="sideTitle fs-6 fw-bold px-3 pb-5">  
@@ -1159,12 +1161,12 @@
 		  							12,000 Christians Want Trump 'Held Accountable' for Tear-Gassed BLM Protest
 		  						</h5>
 		  					</div> 
-		  				</div>  					
+		  				</div>  	 				
 	  				</div>
-  				</div>   				
-  			</div>
+  				</div>  				
+  			</div> 
   		</div>
-  		<div class="subscribe--block container-lg d-flex border-top">
+  		<div class="subscribe--block container-lg d-flex flex-lg-row flex-sm-column flex-column border-top pb-lg-0 pb-5">
   			<div class="subscribe--magazin width-100 me-5">
   				<div class="subscribeTite fw-bold fs-4 text-danger  pt-4 mt-4">Subscribe</div> 
   				<div class="megazine d-flex p-4 py-5 bg-light">
@@ -1205,10 +1207,10 @@
 	  				</div>	   
   				</div>    
   			</div>  
-  		</div>
-  	</main> 
+  		</div> 
+  	</main>  
   	<footer class="footer container-xl">
-  		<div class="footer--top d-flex align-items-end">   
+  		<div class="footer--top d-lg-block d-flex align-items-end d-flex flex-column pt-4">      
   			<div class="logo px-3">   
   				<img src="imgs/logoRed.png" alt="">   
    			</div>  
@@ -1245,5 +1247,5 @@
   			</nav>
   		</div>  
   	</footer>
-  </body>
+  </body> 
 </html> 
